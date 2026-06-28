@@ -89,7 +89,7 @@ def read_cpp_file(cpp_path):
         return None
 
 def get_code_content(file_path):
-    if file_path.endswith('.cpp'):
+    if str(file_path).endswith('.cpp'):
         return read_cpp_file(file_path)
     elif file_path.endswith('.docx'):
         return extract_cpp_from_docx(file_path)
