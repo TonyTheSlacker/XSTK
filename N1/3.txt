@@ -1,0 +1,4 @@
+Kết quả:
+	 X=6, y=25
+	 X=3, y=150, y/x=50
+Giải thích: y = x++ * 5 tính y = 5 * 5 = 25, sau đó x lên 6. y *= 6 ra 150. x = y % 7 (150 % 7 = 3). Cuối cùng y/x = 150/3 = 50

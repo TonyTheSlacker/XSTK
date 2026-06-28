@@ -1,0 +1,9 @@
+Snippet 1: 
+Kết quả in ra là: Gia tri cua a la chan
+		  Tong cua a va bla: 24
+Giải thích: a=9, b=6. Sau a++; thì a=10. Sau a = a + b--; thì a = 10 + 6 = 16 và b=5. Sau a = a + (--b); thì b=4 và a = 16 + 4 = 20. a chẵn, tổng in ra lúc này lấy a+b = 20+4 = 24
+
+Snippet 2: 
+Kết quả in ra là:  a la so chan
+		  a = 18
+Giải thích: Qua các phép tính, giá trị cuối cùng của a là 18 (số chẵn), do đó nhánh else được thực thi
